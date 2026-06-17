@@ -5,12 +5,12 @@
 double estimatePi(int samples);
 
 int main(){
-    int samples = 1000;
+    int samples = 1000000;
     double pi = estimatePi(samples);
 
     std::cout << "Samples: " << samples << '\n';
     std::cout << "Pi Estimate: " << pi << '\n';
-    
+
     return 0;
 }
 
